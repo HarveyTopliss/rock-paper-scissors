@@ -81,7 +81,7 @@ const calcCurrDisplay = function (target) {
   currRndStats.innerHTML = `${userHand} ${moveConc} ${compHand} ${arrowSign} ${currRndMsg.outerHTML}`;
 };
 
-//handler for users choice: store move of both sides, store outcome and display outcome
+//after users choice: store move of both sides, store outcome and change display accordingly
 const usersMove = e => {
   compHand = moveArr[calcCompMove()];
   userHand = e.target.id;
