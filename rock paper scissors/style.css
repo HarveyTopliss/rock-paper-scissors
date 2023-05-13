@@ -11,10 +11,13 @@ html {
 body {
   height: 100vh;
   width: 100vw;
+  background-color: rgb(45, 40, 88);
 }
 
 #title {
-  height: 6%;
+  width: 900px;
+  height: 55px;
+  margin-inline: auto;
   padding-top: 0.1em;
   background-color: rgb(129, 157, 197);
   text-align: center;
@@ -24,7 +27,9 @@ body {
 }
 
 .page {
-  height: 94%;
+  height: 905px;
+  width: 950px;
+  margin-inline: auto;
   background-color: rgb(45, 40, 88);
 }
 
